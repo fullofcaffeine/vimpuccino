@@ -140,6 +140,9 @@ filetype plugin indent on
 " Insert New Line *************************************************************
 map <S-Enter> O<ESC> " awesome, inserts new line without going into insert mode
 map <Enter> o<ESC>
+
+
+
 "set fo-=r " do not insert a comment leader after an enter, (no work, fix!!)
 
 
@@ -251,7 +254,7 @@ map <Leader>F :CommandTFlush<CR>
 map <Leader>b :FufBuffer<CR>
 "let g:fuzzy_ignore = '.o;.obj;.bak;.exe;.pyc;.pyo;.DS_Store;.db'
 
-
+map <Leader>t :FufBufferTag<CR>
 " autocomplpop ***************************************************************
 " complete option
 "set complete=.,w,b,u,t,k
@@ -266,7 +269,7 @@ map <Leader>ra :AS<CR>
 map <Leader>rs :RS<CR>
 
 " taglist ********************************************************************
-nnoremap <silent> <Leader>t :TlistToggle<CR>
+nnoremap <silent> <Leader>T :TlistToggle<CR>
 
 
 " fugitive ********************************************************************
@@ -294,9 +297,11 @@ au BufRead,BufNewFile nginx.conf* set ft=nginx
 " |              (Easying transition from Emacs / Emacs goodies)              |
 " -----------------------------------------------------------------------------  
 
-map <C-h> :bnext<CR>
-map <C-l> :bprevious<CR>
 
+map <C-h> :bnext<CR>
+"makes C-W O not complain about other buffer's unsaved changes.
+set hidden
+map <C-l> :bprevious<CR>
 
 " -----------------------------------------------------------------------------  
 " |                             OS Specific                                   |
