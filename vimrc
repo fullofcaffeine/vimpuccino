@@ -358,7 +358,7 @@ inoremap <tab> <c-r>=Smart_TabComplete()<CR>
 syntax on
 
 if has("gui_macvim")
-  colorscheme ir_black
+  colorscheme zenburn 
 elseif has("gui_gtk2")
   colorscheme ir_black
 elseif has("x11")
@@ -370,7 +370,6 @@ else
 	let xterm16_brightness	= 'default'
 	colo xterm16
 end
-
 
 
 " -----------------------------------------------------------------------------  
