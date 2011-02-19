@@ -148,7 +148,7 @@ map <Enter> o<ESC>
 
 " Sessions ********************************************************************
 " Sets what is saved when you save a session
-set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
+set sessionoptions=blank,buffers,curdir,help,resize,tabpages,winsize
 
 
 " Invisible characters *********************************************************
@@ -189,7 +189,7 @@ map <Leader>p <C-^> " Go to previous file
 " Ruby stuff ******************************************************************
 "compiler ruby         " Enable compiler support for ruby
 "map <F5> :!ruby %<CR>
-let ruby_fold=1
+"let ruby_fold=1
 autocmd FileType ruby normal zR
 
 " Omni Completion *************************************************************
@@ -285,8 +285,8 @@ let g:vimwiki_browsers=['open ']
 function! VimwikiWeblinkHandler(weblink)
   silent execute '!open ' . a:weblink
 endfunction
-let g:vimwiki_folding=1
-let g:vimwiki_fold_lists=1
+"let g:vimwiki_folding=1
+"let g:vimwiki_fold_lists=1
 
 " nginx conf *********************************************************************
 au BufRead,BufNewFile nginx.conf* set ft=nginx
@@ -302,6 +302,9 @@ map <C-h> :bnext<CR>
 "makes C-W O not complain about other buffer's unsaved changes.
 set hidden
 map <C-l> :bprevious<CR>
+
+
+nmap gn :s,\v(\w+)(\W*%#\W*)(\w+),\3\2\1\r,kgJ:nohl
 
 function! Smart_TabComplete()
   let line = getline('.')                         " curline
@@ -357,19 +360,19 @@ inoremap <tab> <c-r>=Smart_TabComplete()<CR>
 " color scheme of the moment:
 syntax on
 
-if has("gui_macvim")
+"if has("gui_macvim")
   colorscheme zenburn 
-elseif has("gui_gtk2")
-  colorscheme ir_black
-elseif has("x11")
-elseif has("gui_win32")
-else
-	" Select colormap: 'soft', 'softlight', 'standard' or 'allblue'
-	let xterm16_colormap	= 'allblue'
-	" Select brightness: 'low', 'med', 'high', 'default' or custom levels.
-	let xterm16_brightness	= 'default'
-	colo xterm16
-end
+"elseif has("gui_gtk2")
+"colorscheme ir_black
+"elseif has("x11")
+"elseif has("gui_win32")
+"else
+" Select colormap: 'soft', 'softlight', 'standard' or 'allblue'
+"let xterm16_colormap	= 'allblue'
+" Select brightness: 'low', 'med', 'high', 'default' or custom levels.
+"let xterm16_brightness	= 'default'
+"colo xterm16
+"end
 
 
 " -----------------------------------------------------------------------------  
