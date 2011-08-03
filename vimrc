@@ -367,7 +367,7 @@ inoremap <tab> <c-r>=Smart_TabComplete()<CR>
 syntax on
 
 "if has("gui_macvim")
-  colorscheme zenburn 
+  colorscheme molokai 
 "elseif has("gui_gtk2")
 "colorscheme ir_black
 "elseif has("x11")
