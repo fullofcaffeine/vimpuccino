@@ -35,6 +35,12 @@ imap jj <Esc> " Professor VIM says '87% of users prefer jj over esc', jj abrams 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+" ZoomWin configuration
+map <Leader><Leader> :ZoomWin<CR>
+
+let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
+
+
 " Tabs ************************************************************************
 "set sta " a <Tab> in an indent inserts 'shiftwidth' spaces
 
@@ -306,8 +312,18 @@ au! BufRead,BufNewFile *.json set errorformat=%E%f:\ %m\ at\ line\ %l,%-G%.%#
 
 map <C-h> :bnext<CR>
 "makes C-W O not complain about other buffer's unsaved changes.
+
+" http://credentiality2.blogspot.com/2010/05/avoiding-annoying-no-write-since-last.html
 set hidden
+
+
 map <C-l> :bprevious<CR>
+
+"Hide the annoying toolbar
+if has("gui_running")
+    set guioptions=egmrt
+endif
+
 
 
 nmap gn :s,\v(\w+)(\W*%#\W*)(\w+),\3\2\1\r,kgJ:nohl
