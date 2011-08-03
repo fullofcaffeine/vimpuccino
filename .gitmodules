@@ -70,3 +70,39 @@
 [submodule "bundle/js-syntax"]
 	path = bundle/js-syntax
 	url = https://github.com/vim-scripts/JavaScript-syntax.git
+[submodule "bundle/VisIncr"]
+	path = bundle/VisIncr
+	url = https://github.com/vim-scripts/VisIncr.git
+[submodule "bundle/asciidoc"]
+	path = bundle/asciidoc
+	url = git://github.com/framallo/asciidoc.vim.git
+[submodule "bundle/fugitive.vim"]
+	path = bundle/fugitive.vim
+	url = https://github.com/vim-scripts/fugitive.vim.git
+[submodule "bundle/taskwarrior.vim"]
+	path = bundle/taskwarrior.vim
+	url = git://github.com/framallo/taskwarrior.vim.git
+[submodule "bundle/conque-shell"]
+	path = bundle/conque-shell
+	url = https://github.com/vim-scripts/Conque-Shell.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = https://github.com/KTamas/mustache.vim.git
+[submodule "bundle/JSON.vim"]
+	path = bundle/JSON.vim
+	url = https://github.com/vim-scripts/JSON.vim.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/git-grep-vim"]
+	path = bundle/git-grep-vim
+	url = https://github.com/tjennings/git-grep-vim.git
+[submodule "bundle/html.vim"]
+	path = bundle/html.vim
+	url = https://github.com/vim-scripts/HTML.zip.git
+[submodule "bundle/closetag"]
+	path = bundle/closetag
+	url = https://github.com/vim-scripts/closetag.vim.git

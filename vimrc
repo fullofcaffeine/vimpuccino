@@ -13,9 +13,6 @@
 " |   ,p = go to previous file                                                |
 " |   ,t = toogle taglist                                                     |
 " |                                                                           |
-" |   hh = inserts '=>'                                                       |
-" |   aa = inserts '@'                                                        |
-" |                                                                           |
 " |   ,h = new horizontal window                                              |
 " |   ,v = new vertical window                                                |
 " |                                                                           |
@@ -175,13 +172,13 @@ set history=1000 " increase history size
 " Navigation ******************************************************************
 
 " Make cursor move by visual lines instead of file lines (when wrapping)
-map <up> gk
-map k gk
-imap <up> <C-o>gk
-map <down> gj
-map j gj
-imap <down> <C-o>gj
-map E ge
+"map <up> gk
+"map k gk
+"imap <up> <C-o>gk
+"map <down> gj
+"map j gj
+"imap <down> <C-o>gj
+"map E ge
 
 map <Leader>p <C-^> " Go to previous file
 
@@ -203,11 +200,6 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " May require ruby compiled in
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete 
 
-
-" Hard to type *****************************************************************
-imap uu _
-imap hh =>
-imap aa @
 
 
 " -----------------------------------------------------------------------------  
@@ -290,6 +282,20 @@ endfunction
 
 " nginx conf *********************************************************************
 au BufRead,BufNewFile nginx.conf* set ft=nginx
+
+" asciidoc conf ******************************************************************
+au BufNewFile,BufRead *.txt,README,TODO,CHANGELOG,NOTES,*.asciidoc  setfiletype asciidoc
+
+" json conf ******************************************************************
+"
+au! BufRead,BufNewFile *.json set filetype=json foldmethod=syntax 
+" external tool from http://lloyd.github.com/yajl/.
+au! BufRead,BufNewFile *.json set equalprg=json_reformat
+" external tool from http://github.com/dangerousben/jsonval.
+au! BufRead,BufNewFile *.json set makeprg=jsonval\ %
+au! BufRead,BufNewFile *.json set errorformat=%E%f:\ %m\ at\ line\ %l,%-G%.%#
+
+
 
 
 " -----------------------------------------------------------------------------  
