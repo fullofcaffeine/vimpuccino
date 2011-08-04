@@ -133,6 +133,9 @@ set directory=~/.vim/tmp/swap
 "autocmd BufEnter * lcd %:p:h
 
 
+source ~/.vim/bundle/vim-addon-manager/autoload/sample_vimrc_for_new_users.vim
+
+
 " File Stuff ******************************************************************
 filetype plugin indent on
 " To show current filetype use: set filetype
@@ -394,6 +397,7 @@ syntax on
 "end
 
 
+call vam#ActivateAddons(["vim-haxe"])
 " -----------------------------------------------------------------------------  
 " |                               Host specific                               |
 " -----------------------------------------------------------------------------  
@@ -412,3 +416,5 @@ endif
 "match LongLineWarning '\%120v.*'
 
 "autocmd User ~/git/some_folder/* call Tabstyle_spaces() | let g:force_xhtml=1
+"
+" VIM HAXE
