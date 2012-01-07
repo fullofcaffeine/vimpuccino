@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3582/trunk/std/flash9/globalization
+END
+NumberParseResult.hx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/NumberParseResult.hx
+END
+DateTimeNameContext.hx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3582/trunk/std/flash9/globalization/DateTimeNameContext.hx
+END
+CurrencyParseResult.hx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/CurrencyParseResult.hx
+END
+CollatorMode.hx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3582/trunk/std/flash9/globalization/CollatorMode.hx
+END
+StringTools.hx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/StringTools.hx
+END
+LastOperationStatus.hx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3582/trunk/std/flash9/globalization/LastOperationStatus.hx
+END
+NationalDigitsType.hx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3582/trunk/std/flash9/globalization/NationalDigitsType.hx
+END
+NumberFormatter.hx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/NumberFormatter.hx
+END
+LocaleID.hx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/LocaleID.hx
+END
+DateTimeStyle.hx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3582/trunk/std/flash9/globalization/DateTimeStyle.hx
+END
+CurrencyFormatter.hx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/CurrencyFormatter.hx
+END
+DateTimeNameStyle.hx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3582/trunk/std/flash9/globalization/DateTimeNameStyle.hx
+END
+Collator.hx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/Collator.hx
+END
+DateTimeFormatter.hx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3455/trunk/std/flash9/globalization/DateTimeFormatter.hx
+END

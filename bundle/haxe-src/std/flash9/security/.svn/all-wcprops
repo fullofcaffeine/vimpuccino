@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3837/trunk/std/flash9/security
+END
+X500DistinguishedName.hx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3837/trunk/std/flash9/security/X500DistinguishedName.hx
+END
+CertificateStatus.hx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3837/trunk/std/flash9/security/CertificateStatus.hx
+END
+X509Certificate.hx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3837/trunk/std/flash9/security/X509Certificate.hx
+END

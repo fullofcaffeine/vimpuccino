@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3454/trunk/std/flash9/accessibility
+END
+AccessibilityProperties.hx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2471/trunk/std/flash9/accessibility/AccessibilityProperties.hx
+END
+Accessibility.hx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3449/trunk/std/flash9/accessibility/Accessibility.hx
+END
+ISearchableText.hx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3454/trunk/std/flash9/accessibility/ISearchableText.hx
+END
+ISimpleTextSelection.hx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3454/trunk/std/flash9/accessibility/ISimpleTextSelection.hx
+END
+AccessibilityImplementation.hx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2471/trunk/std/flash9/accessibility/AccessibilityImplementation.hx
+END

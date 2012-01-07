@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/3881/trunk/std/haxe/macro
+END
+Type.hx
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3878/trunk/std/haxe/macro/Type.hx
+END
+Context.hx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3881/trunk/std/haxe/macro/Context.hx
+END
+DefaultJSGenerator.hx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3719/trunk/std/haxe/macro/DefaultJSGenerator.hx
+END
+Compiler.hx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3854/trunk/std/haxe/macro/Compiler.hx
+END
+Expr.hx
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3807/trunk/std/haxe/macro/Expr.hx
+END
+Tools.hx
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3689/trunk/std/haxe/macro/Tools.hx
+END
+JSGenApi.hx
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3593/trunk/std/haxe/macro/JSGenApi.hx
+END

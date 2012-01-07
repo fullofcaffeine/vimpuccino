@@ -1,4 +1,4 @@
-" -----------------------------------------------------------------------------  
+:" -----------------------------------------------------------------------------  
 " |                            VIM Settings                                   |
 " |                   (see gvimrc for gui vim settings)                       |
 " |                                                                           |
@@ -100,10 +100,20 @@ set smartcase " Ignore case when searching lowercase
 
 " Colors **********************************************************************
 "set t_Co=256 " 256 colors
-set background=dark 
-syntax on " syntax highlighting
-colorscheme ir_black
+"set background=dark 
+"syntax on " syntax highlighting
+"colorscheme ir_black
 
+syntax enable
+
+colorscheme solarized
+
+
+if has('gui_running')
+  set background=dark
+else
+  set background=dark
+endif
 
 " Status Line *****************************************************************
 set showcmd
@@ -167,6 +177,12 @@ set nolist
 "set mouse=a " Enable the mouse
 "behave xterm
 "set selectmode=mouse
+
+if has("mouse")
+  set mouse=a
+  set mousehide
+endif
+
 
 
 " Misc settings ***************************************************************
@@ -380,10 +396,10 @@ let g:syntastic_quiet_warnings=1
 "
 "
 " color scheme of the moment:
-syntax on
+"syntax on
 
 "if has("gui_macvim")
-  colorscheme molokai 
+"colorscheme molokai 
 "elseif has("gui_gtk2")
 "colorscheme ir_black
 "elseif has("x11")
@@ -396,8 +412,6 @@ syntax on
 "colo xterm16
 "end
 
-
-call vam#ActivateAddons(["vim-haxe"])
 " -----------------------------------------------------------------------------  
 " |                               Host specific                               |
 " -----------------------------------------------------------------------------  
@@ -418,3 +432,5 @@ endif
 "autocmd User ~/git/some_folder/* call Tabstyle_spaces() | let g:force_xhtml=1
 "
 " VIM HAXE
+
+call vam#ActivateAddons(["vim-haxe"])

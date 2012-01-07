@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm
+END
+DRMURLDownloadContext.hx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/DRMURLDownloadContext.hx
+END
+DRMContentData.hx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/DRMContentData.hx
+END
+LoadVoucherSetting.hx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm/LoadVoucherSetting.hx
+END
+VoucherAccessInfo.hx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/VoucherAccessInfo.hx
+END
+DRMVoucherDownloadContext.hx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/DRMVoucherDownloadContext.hx
+END
+DRMManager.hx
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm/DRMManager.hx
+END
+DRMVoucher.hx
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm/DRMVoucher.hx
+END
+DRMDeviceGroup.hx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm/DRMDeviceGroup.hx
+END
+AuthenticationMethod.hx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm/AuthenticationMethod.hx
+END
+DRMManagerSession.hx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm/DRMManagerSession.hx
+END
+DRMModuleCycleProvider.hx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/DRMModuleCycleProvider.hx
+END
+AddToDeviceGroupSetting.hx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3836/trunk/std/flash9/net/drm/AddToDeviceGroupSetting.hx
+END
+DRMAuthenticationContext.hx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/DRMAuthenticationContext.hx
+END
+DRMPlaybackTimeWindow.hx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/DRMPlaybackTimeWindow.hx
+END
+DRMVoucherStoreContext.hx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3454/trunk/std/flash9/net/drm/DRMVoucherStoreContext.hx
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3833/trunk/std/flash9/automation
+END
+ActionGenerator.hx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3454/trunk/std/flash9/automation/ActionGenerator.hx
+END
+Configuration.hx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3833/trunk/std/flash9/automation/Configuration.hx
+END
+StageCapture.hx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3833/trunk/std/flash9/automation/StageCapture.hx
+END
+MouseAutomationAction.hx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3454/trunk/std/flash9/automation/MouseAutomationAction.hx
+END
+StageCaptureEvent.hx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3454/trunk/std/flash9/automation/StageCaptureEvent.hx
+END
+AutomationAction.hx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3454/trunk/std/flash9/automation/AutomationAction.hx
+END
+KeyboardAutomationAction.hx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3454/trunk/std/flash9/automation/KeyboardAutomationAction.hx
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3834/trunk/std/flash9/display3D
+END
+Context3DTextureFormat.hx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DTextureFormat.hx
+END
+Context3DProgramType.hx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DProgramType.hx
+END
+Context3DCompareMode.hx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DCompareMode.hx
+END
+IndexBuffer3D.hx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/IndexBuffer3D.hx
+END
+Context3DStencilAction.hx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DStencilAction.hx
+END
+Context3D.hx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3834/trunk/std/flash9/display3D/Context3D.hx
+END
+Context3DVertexBufferFormat.hx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DVertexBufferFormat.hx
+END
+Program3D.hx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Program3D.hx
+END
+VertexBuffer3D.hx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/VertexBuffer3D.hx
+END
+Context3DClearMask.hx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3834/trunk/std/flash9/display3D/Context3DClearMask.hx
+END
+Context3DBlendFactor.hx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DBlendFactor.hx
+END
+Context3DRenderMode.hx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DRenderMode.hx
+END
+Context3DTriangleFace.hx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3708/trunk/std/flash9/display3D/Context3DTriangleFace.hx
+END
