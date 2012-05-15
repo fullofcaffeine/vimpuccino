@@ -38,6 +38,9 @@ call pathogen#helptags()
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
 
+
+nmap cp :let @" = expand("%")
+
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 
 
@@ -106,8 +109,8 @@ set smartcase " Ignore case when searching lowercase
 
 syntax enable
 
-colorscheme solarized
-
+"colorscheme solarized
+colorscheme zenburn
 
 if has('gui_running')
   set background=dark
@@ -433,4 +436,4 @@ endif
 "
 " VIM HAXE
 
-call vam#ActivateAddons(["vim-haxe"])
+call vam#ActivateAddons(["snip-mate","vim-haxe"])

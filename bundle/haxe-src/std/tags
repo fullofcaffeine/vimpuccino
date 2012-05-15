@@ -4,3 +4,259 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Array	Array.hx	/^extern class Array<T> {$/;"	c
+ArrayAccess	StdTypes.hx	/^extern interface ArrayAccess<T> { }$/;"	i
+CData	Xml.hx	/^	static var CData(default,null) : XmlType;$/;"	v
+Class	Class.hx	/^extern class Class<T> {$/;"	c
+Comment	Xml.hx	/^	static var Comment(default,null) : XmlType;$/;"	v
+DAYS_OF_MONTH	DateTools.hx	/^	static var DAYS_OF_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];$/;"	v
+Date	Date.hx	/^extern class Date$/;"	c
+DateTools	DateTools.hx	/^class DateTools {$/;"	c
+DocType	Xml.hx	/^	static var DocType(default,null) : XmlType;$/;"	v
+Document	Xml.hx	/^	static var Document(default,null) : XmlType;$/;"	v
+Dynamic	StdTypes.hx	/^extern class Dynamic<T> {$/;"	c
+EReg	EReg.hx	/^class EReg {$/;"	c
+Element	Xml.hx	/^	static var Element(default,null) : XmlType;$/;"	v
+Enum	Enum.hx	/^extern class Enum<T> {$/;"	c
+Float	StdTypes.hx	/^extern class Float { }$/;"	c
+Hash	Hash.hx	/^extern class Hash<T> {$/;"	c
+Int	StdTypes.hx	/^extern class Int extends Float { }$/;"	c
+IntHash	IntHash.hx	/^extern class IntHash<T> {$/;"	c
+IntIter	IntIter.hx	/^class IntIter {$/;"	c
+Iterable	StdTypes.hx	/^typedef Iterable<T> = {$/;"	t
+Iterator	StdTypes.hx	/^typedef Iterator<T> = {$/;"	t
+Lambda	Lambda.hx	/^class Lambda {$/;"	c
+List	List.hx	/^class List<T> {$/;"	c
+Math	Math.hx	/^extern class Math$/;"	c
+NEGATIVE_INFINITY	Math.hx	/^	static var NEGATIVE_INFINITY(default,null) : Float;$/;"	v
+NaN	Math.hx	/^	static var NaN(default,null) : Float;$/;"	v
+Null	StdTypes.hx	/^typedef Null<T> = T$/;"	t
+PCData	Xml.hx	/^	static var PCData(default,null) : XmlType;$/;"	v
+PI	Math.hx	/^	static var PI(default,null) : Float;$/;"	v
+POSITIVE_INFINITY	Math.hx	/^	static var POSITIVE_INFINITY(default,null) : Float;$/;"	v
+Prolog	Xml.hx	/^	static var Prolog(default,null) : XmlType;$/;"	v
+Reflect	Reflect.hx	/^extern class Reflect {$/;"	c
+Std	Std.hx	/^extern class Std {$/;"	c
+String	String.hx	/^extern class String {$/;"	c
+StringBuf	StringBuf.hx	/^class StringBuf {$/;"	c
+StringTools	StringTools.hx	/^class StringTools {$/;"	c
+Type	Type.hx	/^extern class Type {$/;"	c
+UInt	StdTypes.hx	/^typedef UInt = Int$/;"	t
+ValueType	Type.hx	/^enum ValueType {$/;"	t
+Xml	Xml.hx	/^extern class Xml {$/;"	c
+XmlType	Xml.hx	/^enum XmlType {$/;"	t
+__format	DateTools.hx	/^	private static function __format( d : Date, f : String ) : String {$/;"	f
+__format_get	DateTools.hx	/^	private static function __format_get( d : Date, e : String ) : String {$/;"	f
+__init__	Date.hx	/^	private static function __init__() : Void untyped {$/;"	f
+__init__	Math.hx	/^	private static function __init__() : Void untyped {$/;"	f
+_urlDecode	StringTools.hx	/^	private static var _urlDecode = neko.Lib.load("std","url_decode",1);$/;"	v
+_urlEncode	StringTools.hx	/^	private static var _urlEncode = neko.Lib.load("std","url_encode",1);$/;"	v
+abs	Math.hx	/^	static function abs(v:Float):Float;$/;"	f
+acos	Math.hx	/^	static function acos(v:Float):Float;$/;"	f
+add	List.hx	/^	public function add( item : T ) {$/;"	f
+add	StringBuf.hx	/^	public inline function add( ?x : Dynamic ) {$/;"	f
+addChar	StringBuf.hx	/^	public inline function addChar( c : Int ) untyped {$/;"	f
+addChild	Xml.hx	/^	function addChild( x : Xml ) : Void;$/;"	f
+addSub	StringBuf.hx	/^	public inline function addSub( s : String, pos : Int, ?len : Int ) {$/;"	f
+array	Lambda.hx	/^	public static function array<A>( it : Iterable<A> ) : Array<A> {$/;"	f
+asin	Math.hx	/^	static function asin(v:Float):Float;$/;"	f
+atan	Math.hx	/^	static function atan(v:Float):Float;$/;"	f
+atan2	Math.hx	/^	static function atan2(y:Float,x:Float):Float;$/;"	f
+attributes	Xml.hx	/^	function attributes() : Iterator<String>;$/;"	f
+b	StringBuf.hx	/^	private var b :$/;"	v
+callMethod	Reflect.hx	/^	public static function callMethod( o : Dynamic, func : Dynamic, args : Array<Dynamic> ) : Dynamic;$/;"	f
+ceil	Math.hx	/^	static function ceil(v:Float):Int;$/;"	f
+charAt	String.hx	/^	function charAt( index : Int) : String;$/;"	f
+charCodeAt	String.hx	/^	function charCodeAt( index : Int) : Null<Int>;$/;"	f
+clear	List.hx	/^	public function clear() : Void {$/;"	f
+compare	Reflect.hx	/^	public static function compare<T>( a : T, b : T ) : Int;$/;"	f
+compareMethods	Reflect.hx	/^	public static function compareMethods( f1 : Dynamic, f2 : Dynamic ) : Bool;$/;"	f
+concat	Array.hx	/^	function concat( a : Array<T> ) : Array<T>;$/;"	f
+concat	Lambda.hx	/^	public static function concat<T>( a : Iterable<T>, b : Iterable<T> ) : List<T> {$/;"	f
+copy	Array.hx	/^	function copy() : Array<T>;$/;"	f
+copy	Reflect.hx	/^	public static function copy<T>( o : T ) : T;$/;"	f
+cos	Math.hx	/^	static function cos(v:Float):Float;$/;"	f
+count	Lambda.hx	/^	public static function count<A>( it : Iterable<A>, ?pred : A -> Bool ) {$/;"	f
+createCData	Xml.hx	/^	static function createCData( data : String ) : Xml;$/;"	f
+createComment	Xml.hx	/^	static function createComment( data : String ) : Xml;$/;"	f
+createDocType	Xml.hx	/^	static function createDocType( data : String ) : Xml;$/;"	f
+createDocument	Xml.hx	/^	static function createDocument() : Xml;$/;"	f
+createElement	Xml.hx	/^	static function createElement( name : String ) : Xml;$/;"	f
+createEmptyInstance	Type.hx	/^	public static function createEmptyInstance<T>( cl : Class<T> ) : T;$/;"	f
+createEnum	Type.hx	/^	public static function createEnum<T>( e : Enum<T>, constr : String, ?params : Array<Dynamic> ) : T;$/;"	f
+createEnumIndex	Type.hx	/^	public static function createEnumIndex<T>( e : Enum<T>, index : Int, ?params : Array<Dynamic> ) : T;$/;"	f
+createInstance	Type.hx	/^	public static function createInstance<T>( cl : Class<T>, args : Array<Dynamic> ) : T;$/;"	f
+createPCData	Xml.hx	/^	static function createPCData( data : String ) : Xml;$/;"	f
+createProlog	Xml.hx	/^	static function createProlog( data : String ) : Xml;$/;"	f
+customReplace	EReg.hx	/^	public function customReplace( s : String, f : EReg -> String ) : String {$/;"	f
+date_format	DateTools.hx	/^	static var date_format = neko.Lib.load("std","date_format",2);$/;"	v
+days	DateTools.hx	/^	public static function days( n : Float ) : Float {$/;"	f
+deleteField	Reflect.hx	/^	public static function deleteField( o : Dynamic, f : String ) : Bool;$/;"	f
+delta	DateTools.hx	/^	public static function delta( d : Date, t : Float ) : Date {$/;"	f
+elements	Xml.hx	/^	function elements() : Iterator<Xml>;$/;"	f
+elementsNamed	Xml.hx	/^	function elementsNamed( name : String ) : Iterator<Xml>;$/;"	f
+empty	Lambda.hx	/^	public static function empty( it : Iterable<Dynamic> ) : Bool {$/;"	f
+endsWith	StringTools.hx	/^	public static function endsWith( s : String, end : String ) {$/;"	f
+enumConstructor	Type.hx	/^	public static function enumConstructor( e : Dynamic ) : String;$/;"	f
+enumEq	Type.hx	/^	public static function enumEq<T>( a : T, b : T ) : Bool;$/;"	f
+enumIndex	Type.hx	/^	public static function enumIndex( e : Dynamic ) : Int;$/;"	f
+enumParameters	Type.hx	/^	public static function enumParameters( e : Dynamic ) : Array<Dynamic>;$/;"	f
+exists	Hash.hx	/^	public function exists( key : String ) : Bool;$/;"	f
+exists	IntHash.hx	/^	public function exists( key : Int ) : Bool;$/;"	f
+exists	Lambda.hx	/^	public static function exists<A>( it : Iterable<A>, f : A -> Bool ) {$/;"	f
+exists	Xml.hx	/^	function exists( att : String ) : Bool;$/;"	f
+exp	Math.hx	/^	static function exp(v:Float):Float;$/;"	f
+fastCodeAt	StringTools.hx	/^	public static inline function fastCodeAt( s : String, index : Int ) : Int untyped {$/;"	f
+field	Reflect.hx	/^	public static function field( o : Dynamic, field : String ) : Dynamic;$/;"	f
+fields	Reflect.hx	/^	public static function fields( o : Dynamic ) : Array<String>;$/;"	f
+filter	Lambda.hx	/^	public static function filter<A>( it : Iterable<A>, f : A -> Bool ) {$/;"	f
+filter	List.hx	/^	public function filter( f : T -> Bool ) {$/;"	f
+first	List.hx	/^	public function first() : T {$/;"	f
+firstChild	Xml.hx	/^	function firstChild() : Xml;$/;"	f
+firstElement	Xml.hx	/^	function firstElement() : Xml;$/;"	f
+floor	Math.hx	/^	static function floor(v:Float):Int;$/;"	f
+fold	Lambda.hx	/^	public static function fold<A,B>( it : Iterable<A>, f : A -> B -> B, first : B ) : B {$/;"	f
+foreach	Lambda.hx	/^	public static function foreach<A>( it : Iterable<A>, f : A -> Bool ) {$/;"	f
+format	DateTools.hx	/^	public static function format( d : Date, f : String ) : String {$/;"	f
+fromCharCode	String.hx	/^	static function fromCharCode( code : Int ) : String;$/;"	f
+fromString	Date.hx	/^	static function fromString( s : String ) : Date;$/;"	f
+fromTime	Date.hx	/^	static function fromTime( t : Float ) : Date;$/;"	f
+get	Hash.hx	/^	public function get( key : String ) : Null<T>;$/;"	f
+get	IntHash.hx	/^	public function get( key : Int ) : Null<T>;$/;"	f
+get	Xml.hx	/^	function get( att : String ) : String; \/\/ check case insensitivy$/;"	f
+getClass	Type.hx	/^	public static function getClass<T>( o : T ) : Class<T>;$/;"	f
+getClassFields	Type.hx	/^	public static function getClassFields( c : Class<Dynamic> ) : Array<String>;$/;"	f
+getClassName	Type.hx	/^	public static function getClassName( c : Class<Dynamic> ) : String;$/;"	f
+getDate	Date.hx	/^	function getDate() : Int;$/;"	f
+getDay	Date.hx	/^	function getDay() : Int;$/;"	f
+getEnum	Type.hx	/^	public static function getEnum( o : Dynamic ) : Enum<Dynamic>;$/;"	f
+getEnumConstructs	Type.hx	/^	public static function getEnumConstructs( e : Enum<Dynamic> ) : Array<String>;$/;"	f
+getEnumName	Type.hx	/^	public static function getEnumName( e : Enum<Dynamic> ) : String;$/;"	f
+getFullYear	Date.hx	/^	function getFullYear() : Int;$/;"	f
+getHours	Date.hx	/^	function getHours() : Int;$/;"	f
+getInstanceFields	Type.hx	/^	public static function getInstanceFields( c : Class<Dynamic> ) : Array<String>;$/;"	f
+getMinutes	Date.hx	/^	function getMinutes() : Int;$/;"	f
+getMonth	Date.hx	/^	function getMonth() : Int;$/;"	f
+getMonthDays	DateTools.hx	/^	public static function getMonthDays( d : Date ) : Int {$/;"	f
+getNodeName	Xml.hx	/^	private function getNodeName() : String;$/;"	f
+getNodeValue	Xml.hx	/^	private function getNodeValue() : String;$/;"	f
+getParent	Xml.hx	/^	private function getParent() : Xml;$/;"	f
+getSeconds	Date.hx	/^	function getSeconds() : Int;$/;"	f
+getSuperClass	Type.hx	/^	public static function getSuperClass( c : Class<Dynamic> ) : Class<Dynamic>;$/;"	f
+getTime	Date.hx	/^	function getTime() : Float;$/;"	f
+h	List.hx	/^	private var h : Array<Dynamic>;$/;"	v
+has	Lambda.hx	/^	public static function has<A>( it : Iterable<A>, elt : A, ?cmp : A -> A -> Bool ) : Bool {$/;"	f
+hasField	Reflect.hx	/^	public static function hasField( o : Dynamic, field : String ) : Bool;$/;"	f
+hasNext	IntIter.hx	/^	public function hasNext() {$/;"	f
+hasNext	StdTypes.hx	/^	function hasNext() : Bool;$/;"	f
+hex	StringTools.hx	/^	public static function hex( n : Int, ?digits : Int ) {$/;"	f
+hours	DateTools.hx	/^	public static function hours( n : Float ) : Float {$/;"	f
+htmlEscape	StringTools.hx	/^	public static function htmlEscape( s : String ) : String {$/;"	f
+indexOf	Lambda.hx	/^	public static function indexOf<T>( it : Iterable<T>, v : T ) : Int {$/;"	f
+indexOf	String.hx	/^	function indexOf( str : String, ?startIndex : Int ) : Int;$/;"	f
+insert	Array.hx	/^	function insert( pos : Int, x : T ) : Void;$/;"	f
+insertChild	Xml.hx	/^	function insertChild( x : Xml, pos : Int ) : Void;$/;"	f
+int	Std.hx	/^	public static function int( x : Float ) : Int;$/;"	f
+is	Std.hx	/^	public static function is( v : Dynamic, t : Dynamic ) : Bool;$/;"	f
+isEOF	StringTools.hx	/^	public static inline function isEOF( c : Int ) : Bool {$/;"	f
+isEmpty	List.hx	/^	public function isEmpty() : Bool {$/;"	f
+isFinite	Math.hx	/^	static function isFinite( f : Float ) : Bool;$/;"	f
+isFunction	Reflect.hx	/^	public static function isFunction( f : Dynamic ) : Bool;$/;"	f
+isNaN	Math.hx	/^	static function isNaN( f : Float ) : Bool;$/;"	f
+isObject	Reflect.hx	/^	public static function isObject( v : Dynamic ) : Bool;$/;"	f
+isSpace	StringTools.hx	/^	public static function isSpace( s : String, pos : Int ) : Bool {$/;"	f
+iter	Lambda.hx	/^	public static function iter<A>( it : Iterable<A>, f : A -> Void ) {$/;"	f
+iterator	Array.hx	/^	function iterator() : Iterator<Null<T>>;$/;"	f
+iterator	Hash.hx	/^	public function iterator() : Iterator<T>;$/;"	f
+iterator	IntHash.hx	/^	public function iterator() : Iterator<T>;$/;"	f
+iterator	List.hx	/^	public function iterator() : Iterator<T> {$/;"	f
+iterator	StdTypes.hx	/^	function iterator() : Iterator<T>;$/;"	f
+iterator	Xml.hx	/^	function iterator() : Iterator<Xml>;$/;"	f
+join	Array.hx	/^	function join( sep : String ) : String;$/;"	f
+join	List.hx	/^	public function join(sep : String) {$/;"	f
+keys	Hash.hx	/^	public function keys() : Iterator<String>;$/;"	f
+keys	IntHash.hx	/^	public function keys() : Iterator<Int>;$/;"	f
+last	List.hx	/^	public function last() : T {$/;"	f
+lastIndexOf	String.hx	/^	function lastIndexOf( str : String, ?startIndex : Int ) : Int;$/;"	f
+length	List.hx	/^	public var length(default,null) : Int;$/;"	v
+list	Lambda.hx	/^	public static function list<A>( it : Iterable<A> ) : List<A> {$/;"	f
+log	Math.hx	/^	static function log(v:Float):Float;$/;"	f
+make	DateTools.hx	/^	public static function make( o : { ms : Float, seconds : Int, minutes : Int, hours : Int, days : Int } ) {$/;"	f
+makeVarArgs	Reflect.hx	/^	public static function makeVarArgs( f : Array<Dynamic> -> Dynamic ) : Dynamic;$/;"	f
+map	Lambda.hx	/^	public static function map<A,B>( it : Iterable<A>, f : A -> B ) : List<B> {$/;"	f
+map	List.hx	/^	public function map<X>(f : T -> X) : List<X> {$/;"	f
+mapi	Lambda.hx	/^	public static function mapi<A,B>( it : Iterable<A>, f : Int -> A -> B ) : List<B> {$/;"	f
+match	EReg.hx	/^	public function match( s : String ) : Bool {$/;"	f
+matched	EReg.hx	/^	public function matched( n : Int ) : String {$/;"	f
+matchedLeft	EReg.hx	/^	public function matchedLeft() : String {$/;"	f
+matchedPos	EReg.hx	/^	public function matchedPos() : { pos : Int, len : Int } {$/;"	f
+matchedRight	EReg.hx	/^	public function matchedRight() : String {$/;"	f
+max	Math.hx	/^	static function max(a:Float,b:Float):Float;$/;"	f
+min	Math.hx	/^	static function min(a:Float,b:Float):Float;$/;"	f
+minutes	DateTools.hx	/^	public static function minutes( n : Float ) : Float {$/;"	f
+new	Array.hx	/^	function new() : Void;$/;"	f
+new	Date.hx	/^	function new(year : Int, month : Int, day : Int, hour : Int, min : Int, sec : Int ) : Void;$/;"	f
+new	EReg.hx	/^	public function new( r : String, opt : String ) {$/;"	f
+new	Hash.hx	/^	public function new() : Void;$/;"	f
+new	IntHash.hx	/^	public function new() : Void;$/;"	f
+new	IntIter.hx	/^	public function new( min : Int, max : Int ) {$/;"	f
+new	List.hx	/^	public function new() {$/;"	f
+new	String.hx	/^	function new(string:String) : Void;$/;"	f
+new	StringBuf.hx	/^	public function new() {$/;"	f
+next	IntIter.hx	/^	public function next() {$/;"	f
+next	StdTypes.hx	/^	function next() : T;$/;"	f
+now	Date.hx	/^	static function now() : Date;$/;"	f
+parse	DateTools.hx	/^	public static function parse( t : Float ) {$/;"	f
+parse	Xml.hx	/^	static function parse( str : String ) : Xml;$/;"	f
+parseFloat	Std.hx	/^	public static function parseFloat( x : String ) : Float;$/;"	f
+parseInt	Std.hx	/^	public static function parseInt( x : String ) : Null<Int>;$/;"	f
+pop	Array.hx	/^	function pop() : Null<T>;$/;"	f
+pop	List.hx	/^	public function pop() : T {$/;"	f
+pow	Math.hx	/^	static function pow(v:Float,exp:Float):Float;$/;"	f
+push	Array.hx	/^	function push(x : T) : Int;$/;"	f
+push	List.hx	/^	public function push( item : T ) {$/;"	f
+q	List.hx	/^	private var q : Array<Dynamic>;$/;"	v
+random	Math.hx	/^	static function random() : Float;$/;"	f
+random	Std.hx	/^	public static function random( x : Int ) : Int;$/;"	f
+remove	Array.hx	/^	function remove( x : T ) : Bool;$/;"	f
+remove	Hash.hx	/^	public function remove( key : String ) : Bool;$/;"	f
+remove	IntHash.hx	/^	public function remove( key : Int ) : Bool;$/;"	f
+remove	List.hx	/^	public function remove( v : T ) : Bool {$/;"	f
+remove	Xml.hx	/^	function remove( att : String ) : Void;$/;"	f
+removeChild	Xml.hx	/^	function removeChild( x : Xml ) : Bool;$/;"	f
+replace	EReg.hx	/^	public function replace( s : String, by : String ) : String {$/;"	f
+resolveClass	Type.hx	/^	public static function resolveClass( name : String ) : Class<Dynamic>;$/;"	f
+resolveEnum	Type.hx	/^	public static function resolveEnum( name : String ) : Enum<Dynamic>;$/;"	f
+reverse	Array.hx	/^	function reverse() : Void;$/;"	f
+round	Math.hx	/^	static function round(v:Float):Int;$/;"	f
+seconds	DateTools.hx	/^	public static function seconds( n : Float ) : Float {$/;"	f
+set	Hash.hx	/^	public function set( key : String, value : T ) : Void;$/;"	f
+set	IntHash.hx	/^	public function set( key : Int, value : T ) : Void;$/;"	f
+set	Xml.hx	/^	function set( att : String, value : String ) : Void;$/;"	f
+setField	Reflect.hx	/^	public static function setField( o : Dynamic, field : String, value : Dynamic ) : Void;$/;"	f
+setNodeName	Xml.hx	/^	private function setNodeName( name : String ) : String;$/;"	f
+setNodeValue	Xml.hx	/^	private function setNodeValue( name : String ) : String;$/;"	f
+shift	Array.hx	/^	function shift() : Null<T>;$/;"	f
+sin	Math.hx	/^	static function sin(v:Float):Float;$/;"	f
+slice	Array.hx	/^	function slice( pos : Int, ?end : Int ) : Array<T>;$/;"	f
+sort	Array.hx	/^	function sort( f : T -> T -> Int ) : Void;$/;"	f
+splice	Array.hx	/^	function splice( pos : Int, len : Int ) : Array<T>;$/;"	f
+split	EReg.hx	/^	public function split( s : String ) : Array<String> {$/;"	f
+split	String.hx	/^	function split( delimiter : String ) : Array<String>;$/;"	f
+sqrt	Math.hx	/^	static function sqrt(v:Float):Float;$/;"	f
+startsWith	StringTools.hx	/^	public static function startsWith( s : String, start : String ) {$/;"	f
+string	Std.hx	/^	public static function string( s : Dynamic ) : String;$/;"	f
+substr	String.hx	/^	function substr( pos : Int, ?len : Int ) : String;$/;"	f
+tan	Math.hx	/^	static function tan(v:Float):Float;$/;"	f
+toLowerCase	String.hx	/^	function toLowerCase() : String;$/;"	f
+toString	Array.hx	/^	function toString() : String;$/;"	f
+toString	Date.hx	/^	function toString():String;$/;"	f
+toString	Hash.hx	/^	public function toString() : String;$/;"	f
+toString	IntHash.hx	/^	public function toString() : String;$/;"	f
+toString	List.hx	/^	public function toString() {$/;"	f
+toString	String.hx	/^	function toString() : String;$/;"	f
+toString	StringBuf.hx	/^	public inline function toString() : String {$/;"	f
+toString	Xml.hx	/^	function toString() : String;$/;"	f
+toUpperCase	String.hx	/^	function toUpperCase() : String;$/;"	f
+typeof	Type.hx	/^	public static function typeof( v : Dynamic ) : ValueType;$/;"	f
+unshift	Array.hx	/^	function unshift( x : T ) : Void;$/;"	f
