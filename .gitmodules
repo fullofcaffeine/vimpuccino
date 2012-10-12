@@ -1,9 +1,6 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = http://github.com/mileszs/ack.vim.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/fuzzyfinder"]
 	path = bundle/fuzzyfinder
 	url = http://github.com/clones/vim-fuzzyfinder.git
@@ -112,27 +109,3 @@
 [submodule "bundle/vim-haxe"]
 	path = bundle/vim-haxe
 	url = git://github.com/MarcWeber/vim-haxe.git
-[submodule "bundle/vim-addon-mw-utils"]
-	path = bundle/vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/vim-addon-actions"]
-	path = bundle/vim-addon-actions
-	url = https://github.com/MarcWeber/vim-addon-actions
-[submodule "bundle/vim-addon-views"]
-	path = bundle/vim-addon-views
-	url = git://github.com/MarcWeber/vim-addon-views.git
-[submodule "bundle/vim-addon-goto-thing-at-cursor"]
-	path = bundle/vim-addon-goto-thing-at-cursor
-	url = git://github.com/MarcWeber/vim-addon-goto-thing-at-cursor.git
-[submodule "bundle/vim-addon-background-cmd"]
-	path = bundle/vim-addon-background-cmd
-	url = git://github.com/MarcWeber/vim-addon-background-cmd.git
-[submodule "bundle/vim-addon-completion"]
-	path = bundle/vim-addon-completion
-	url = git://github.com/MarcWeber/vim-addon-completion.git
-[submodule "bundle/vim-addon-swfmill"]
-	path = bundle/vim-addon-swfmill
-	url = git://github.com/MarcWeber/vim-addon-swfmill.git
-[submodule "bundle/vim-addon-manager"]
-	path = bundle/vim-addon-manager
-	url = git://github.com/MarcWeber/vim-addon-manager.git

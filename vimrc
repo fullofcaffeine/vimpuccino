@@ -122,7 +122,7 @@ endif
 set showcmd
 set ruler " Show ruler
 "set ch=2 " Make command line two lines high
-match LongLineWarning '\%120v.*' " Error format when a line is longer than 120
+"match LongLineWarning '\%120v.*' " Error format when a line is longer than 120
 
 " filename completition *******************************************************
 " works as bash completition
@@ -144,9 +144,6 @@ set directory=~/.vim/tmp/swap
 
 " Sets path to directory buffer was loaded from
 "autocmd BufEnter * lcd %:p:h
-
-
-source ~/.vim/bundle/vim-addon-manager/autoload/sample_vimrc_for_new_users.vim
 
 
 " File Stuff ******************************************************************
@@ -435,5 +432,23 @@ endif
 "autocmd User ~/git/some_folder/* call Tabstyle_spaces() | let g:force_xhtml=1
 "
 " VIM HAXE
+"tab completion
+set wildmode=longest,list,full
+set wildmenu
 
-call vam#ActivateAddons(["snip-mate","vim-haxe"])
+ function! SuperCleverTab()
+    if strpart(getline('.'), 0, col('.') - 1) =~ '^\s*$'
+        return "\<Tab>"
+    else
+        return "\<C-P>"
+        "if &omnifunc != ''
+            "return "\<C-X>\<C-O>"
+        "elseif &dictionary != ''
+            "return "\<C-K>"
+        "else
+            "return "\<C-N>"
+        "endif
+    endif
+endfunction
+
+inoremap <Tab> <C-R>=SuperCleverTab()<cr>
