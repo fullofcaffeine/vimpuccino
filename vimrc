@@ -27,6 +27,8 @@
 " -----------------------------------------------------------------------------  
 
 
+let g:github_user = "fullofcaffeine"
+
 set nocompatible
 let mapleader = ","
 imap jj <Esc> " Professor VIM says '87% of users prefer jj over esc', jj abrams disagrees
@@ -452,3 +454,7 @@ set wildmenu
 endfunction
 
 inoremap <Tab> <C-R>=SuperCleverTab()<cr>
+
+
+autocmd BufRead,BufNewFile *.hx set ff=dos
+
