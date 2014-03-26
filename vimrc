@@ -457,4 +457,3 @@ inoremap <Tab> <C-R>=SuperCleverTab()<cr>
 
 
 autocmd BufRead,BufNewFile *.hx set ff=dos
-

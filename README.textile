@@ -1,3 +1,5 @@
+DEPRECATED, check: https://github.com/fullofcaffeine/dotfiles, instead.
+
 h1. The awesome Vim config files
 
 This is my own Caffeinated (with some 2% milk and foam) VIM config files + plugins. It is based on the awesome Vim-For-Rails from Federico Ramallo.
